@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Muslim Innovators - Infografis Proyek</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts (Plus Jakarta Sans for Premium Modern Look) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .accent-gradient {
+      background: linear-gradient(135deg, #1e3a8a 0%, #065f46 50%, #d97706 100%);
+    }
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+      body {
+        background-color: white !important;
+        color: black !important;
+      }
+      .page-break {
+        page-break-before: always;
+      }
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen">
+
+  <!-- Header Banner & Action Buttons -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 no-print shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <div class="flex items-center gap-3">
+        <div class="p-2 bg-emerald-100 text-emerald-800 rounded-lg">
+          <i data-lucide="leaf" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <h1 class="font-bold text-slate-900 text-lg">Panduan Proyek Orang Tua</h1>
+          <p class="text-xs text-slate-500">Informasi Alur, Target Integrasi & Capaian Belajar Ananda</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <button onclick="window.print()" class="flex items-center gap-2 px-4 py-2 bg-blue-900 hover:bg-blue-800 text-white rounded-lg text-sm font-semibold transition-all shadow-sm">
+          <i data-lucide="printer" class="w-4 h-4"></i> Cetak Infografis
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    
+    <!-- Hero / Cover Banner -->
+    <section class="relative bg-gradient-to-br from-blue-950 via-emerald-950 to-emerald-900 rounded-3xl overflow-hidden shadow-xl text-white p-6 sm:p-10 md:p-12">
+      <!-- Decorative vector lines -->
+      <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#facc15_1px,transparent_1px)] [background-size:16px_16px]"></div>
+      
+      <!-- Top Badges / Metadata -->
+      <div class="relative z-10 flex flex-wrap gap-2 sm:gap-3 mb-6">
+        <span class="inline-flex items-center px-3 py-1.5 rounded-full text-xs font-bold bg-blue-900/80 text-blue-100 border border-blue-700">
+          Tema: Prakarsa
+        </span>
+        <span class="inline-flex items-center px-3 py-1.5 rounded-full text-xs font-bold bg-emerald-800/80 text-emerald-100 border border-emerald-600">
+          Sub Tema: Maturitas
+        </span>
+        <!-- HIGHLIGHTED SUBTOPIK ONLY -->
+        <span class="inline-flex items-center px-4 py-1.5 rounded-full text-xs font-black bg-amber-400 text-slate-950 border-2 border-amber-300 shadow-lg animate-pulse">
+          ★ SUBTOPIK UTAMA: AUTOREGULASI
+        </span>
+      </div>
+
+      <!-- Main Title -->
+      <div class="relative z-10 max-w-4xl space-y-4">
+        <p class="text-amber-400 text-sm font-bold tracking-wider uppercase">Proyek Kolaboratif Murid</p>
+        <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-white drop-shadow-sm">
+          Green Muslim Innovators: 
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-amber-300 block sm:inline">Solusi Cerdas Khalifah Bumi untuk Perubahan Iklim dan Kehidupan Berkelanjutan</span>
+        </h2>
+        <p class="text-slate-300 text-sm sm:text-base leading-relaxed max-w-3xl pt-2">
+          Melalui proyek penyelidikan ini, murid diajak mengamati fenomena nyata di sekitar untuk menganalisis keterkaitan perubahan fisika/kimia, kalor, dan perubahan iklim dengan aspek sosial, ekonomi, budaya, serta lingkungan. Murid akan melahirkan inovasi berbasis data, teknologi digital, kecerdasan artifisial (AI), pengolahan limbah bernilai ekonomi, serta kampanye hidup sehat.
+        </p>
+      </div>
+
+      <!-- Key Stats Summary at Bottom of Hero -->
+      <div class="relative z-10 grid grid-cols-2 md:grid-cols-4 gap-4 mt-8 pt-8 border-t border-white/10 text-center md:text-left">
+        <div>
+          <p class="text-xs text-slate-400">Dimensi Lulusan</p>
+          <p class="text-lg font-bold text-emerald-300">8 Dimensi Profil</p>
+        </div>
+        <div>
+          <p class="text-xs text-slate-400">Integrasi Nilai</p>
+          <p class="text-lg font-bold text-amber-300">8 Asmaul Husna</p>
+        </div>
+        <div>
+          <p class="text-xs text-slate-400">Target Global</p>
+          <p class="text-lg font-bold text-blue-300">10 SDGs Terkait</p>
+        </div>
+        <div>
+          <p class="text-xs text-slate-400">Hasil Nyata</p>
+          <p class="text-lg font-bold text-white">6 Luaran Produk</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Subtopic Autoregulasi Deep-Dive Box -->
+    <section class="bg-amber-50/50 border-2 border-amber-200/80 rounded-2xl p-6 flex flex-col md:flex-row items-start gap-4">
+      <div class="p-3 bg-amber-400 text-amber-950 rounded-xl font-bold flex-shrink-0 flex items-center justify-center shadow-md">
+        <i data-lucide="activity" class="w-6 h-6"></i>
+      </div>
+      <div>
+        <h3 class="text-amber-900 font-bold text-lg mb-1">Mengenal Subtopik: Autoregulasi</h3>
+        <p class="text-amber-800 text-sm leading-relaxed">
+          Dalam konteks perubahan iklim dan kehidupan berkelanjutan, <strong>Autoregulasi</strong> melambangkan kemampuan sistem (baik biologis tubuh manusia, tumbuhan, maupun ekosistem bumi) untuk secara cerdas mengendalikan dan menyeimbangkan dirinya sendiri agar tetap bertahan dan berkembang di tengah perubahan eksternal yang ekstrem. Pembelajaran diarahkan agar murid memahami kapasitas adaptif alamiah ini dan merancang teknologi/gaya hidup penunjang kemandirian ekosistem.
+        </p>
+      </div>
+    </section>
+
+    <!-- 3-Step Project Workflow Flowchart -->
+    <section class="space-y-6">
+      <div class="text-center max-w-xl mx-auto">
+        <h3 class="text-2xl font-bold text-slate-900">Alur Pembelajaran Murid</h3>
+        <p class="text-sm text-slate-500">Tiga fase utama perjalanan ananda dalam menyelesaikan misi proyek ini</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 relative">
+        <!-- Connecting lines for desktop -->
+        <div class="hidden md:block absolute top-1/2 left-[15%] right-[15%] h-1 bg-slate-200 -z-10 transform -translate-y-1/2"></div>
+        
+        <!-- Step 1 -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm relative hover:border-blue-500 transition-all flex flex-col items-center text-center">
+          <div class="absolute -top-4 bg-blue-900 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold shadow-md">1</div>
+          <div class="p-4 bg-blue-50 text-blue-900 rounded-2xl mb-4 mt-2">
+            <i data-lucide="search" class="w-8 h-8"></i>
+          </div>
+          <h4 class="font-bold text-slate-900 text-lg mb-2">Penyelidikan Ilmiah</h4>
+          <p class="text-slate-600 text-sm">
+            Murid mengamati dan menganalisis fenomena perubahan fisika/kimia, pengaruh perpindahan kalor, dampak iklim lokal, serta dampaknya terhadap sosial ekonomi budaya warga sekitar secara langsung.
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm relative hover:border-emerald-500 transition-all flex flex-col items-center text-center">
+          <div class="absolute -top-4 bg-emerald-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold shadow-md">2</div>
+          <div class="p-4 bg-emerald-50 text-emerald-800 rounded-2xl mb-4 mt-2">
+            <i data-lucide="cpu" class="w-8 h-8"></i>
+          </div>
+          <h4 class="font-bold text-slate-900 text-lg mb-2">Pengembangan Solusi</h4>
+          <p class="text-slate-600 text-sm">
+            Menghitung data menggunakan matematika, merancang teknologi dengan bantuan AI/literasi digital, serta membuat kerajinan bernilai ekonomi dari bahan alam atau limbah sebagai aksi nyata pelestarian.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm relative hover:border-amber-500 transition-all flex flex-col items-center text-center">
+          <div class="absolute -top-4 bg-amber-500 text-slate-950 w-8 h-8 rounded-full flex items-center justify-center font-bold shadow-md">3</div>
+          <div class="p-4 bg-amber-50 text-amber-600 rounded-2xl mb-4 mt-2">
+            <i data-lucide="megaphone" class="w-8 h-8"></i>
+          </div>
+          <h4 class="font-bold text-slate-900 text-lg mb-2">Kampanye & Hidup Sehat</h4>
+          <p class="text-slate-600 text-sm">
+            Melakukan promosi gaya hidup bersih, perancangan gizi seimbang sesuai aktivitas jasmani, kampanye peduli iklim bilingual (Bahasa Indonesia & Inggris), serta menyusun portofolio reflektif.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Integrations Grid (Asmaul Husna, SDGs, Profil, Outputs) -->
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      
+      <!-- Card 1: Integrasi Nilai Keislaman & Nilai Luhur -->
+      <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm flex flex-col justify-between">
+        <div>
+          <div class="flex items-center gap-3 mb-4">
+            <div class="p-2 bg-emerald-50 text-emerald-800 rounded-lg">
+              <i data-lucide="shield-check" class="w-6 h-6"></i>
+            </div>
+            <h4 class="text-xl font-bold text-slate-950">Integrasi Spiritual & Karakter</h4>
+          </div>
+          <p class="text-slate-600 text-sm mb-6">
+            Proyek ini didesain tidak hanya melatih intelektualitas ananda, melainkan juga menanamkan ketakwaan melalui penguatan **8 Asmaul Husna**:
+          </p>
+          <div class="grid grid-cols-2 gap-3">
+            <div class="p-2.5 bg-slate-50 border border-slate-100 rounded-lg text-sm">
+              <span class="font-bold text-slate-800 block">Al-'Alim</span>
+              <span class="text-xs text-slate-500">Maha Mengetahui ilmu alam</span>
+            </div>
+            <div class="p-2.5 bg-slate-50 border border-slate-100 rounded-lg text-sm">
+              <span class="font-bold text-slate-800 block">Al-Hakim</span>
+              <span class="text-xs text-slate-500">Maha Bijaksana dalam solusi</span>
+            </div>
+            <div class="p-2.5 bg-slate-50 border border-slate-100 rounded-lg text-sm">
+              <span class="font-bold text-slate-800 block">Al-Khaliq</span>
+              <span class="text-xs text-slate-500">Maha Pencipta inovasi kreasi</span>
+            </div>
+            <div class="p-2.5 bg-slate-50 border border-slate-100 rounded-lg text-sm">
+              <span class="font-bold text-slate-800 block">Ar-Razzaq</span>
+              <span class="text-xs text-slate-500">Pemberi rezeki nilai ekonomi</span>
+            </div>
+            <div class="p-2.5 bg-slate-50 border border-slate-100 rounded-lg text-sm">
+              <span class="font-bold text-slate-800 block">Al-Latif</span>
+              <span class="text-xs text-slate-500">Maha Lembut merawat alam</span>
+            </div>
+            <div class="p-2.5 bg-slate-50 border border-slate-100 rounded-lg text-sm">
+              <span class="font-bold text-slate-800 block">Al-Muqit</span>
+              <span class="text-xs text-slate-500">Maha Memberi kecukupan pangan</span>
+            </div>
+            <div class="p-2.5 bg-slate-50 border border-slate-100 rounded-lg text-sm">
+              <span class="font-bold text-slate-800 block">Asy-Syakur</span>
+              <span class="text-xs text-slate-500">Maha Mensyukuri berkah bumi</span>
+            </div>
+            <div class="p-2.5 bg-slate-50 border border-slate-100 rounded-lg text-sm">
+              <span class="font-bold text-slate-800 block">Al-Matin</span>
+              <span class="text-xs text-slate-500">Maha Kokoh menjaga komitmen</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Profil Lulusan List -->
+        <div class="mt-6 pt-6 border-t border-slate-100">
+          <h5 class="text-sm font-bold text-slate-900 mb-2">Mengembangkan 8 Dimensi Profil Lulusan:</h5>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="px-2 py-1 bg-slate-100 text-slate-700 rounded-md text-xs">Iman & Takwa</span>
+            <span class="px-2 py-1 bg-slate-100 text-slate-700 rounded-md text-xs">Kewargaan</span>
+            <span class="px-2 py-1 bg-slate-100 text-slate-700 rounded-md text-xs">Penalaran Kritis</span>
+            <span class="px-2 py-1 bg-slate-100 text-slate-700 rounded-md text-xs">Kreativitas</span>
+            <span class="px-2 py-1 bg-slate-100 text-slate-700 rounded-md text-xs">Kolaborasi</span>
+            <span class="px-2 py-1 bg-slate-100 text-slate-700 rounded-md text-xs">Kemandirian</span>
+            <span class="px-2 py-1 bg-slate-100 text-slate-700 rounded-md text-xs">Kesehatan</span>
+            <span class="px-2 py-1 bg-slate-100 text-slate-700 rounded-md text-xs">Komunikasi</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2: SDGs target & Luaran Proyek -->
+      <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm flex flex-col justify-between">
+        <div>
+          <div class="flex items-center gap-3 mb-4">
+            <div class="p-2 bg-blue-50 text-blue-900 rounded-lg">
+              <i data-lucide="globe" class="w-6 h-6"></i>
+            </div>
+            <h4 class="text-xl font-bold text-slate-950">Mendukung Pembangunan Global (SDGs)</h4>
+          </div>
+          <p class="text-slate-600 text-sm mb-4">
+            Ananda berperan aktif sebagai *Khalifah fil Ardh* dengan berkontribusi langsung pada pencapaian indikator global:
+          </p>
+          <div class="grid grid-cols-2 gap-2 text-xs">
+            <div class="p-2 bg-rose-50 text-rose-800 rounded border border-rose-100 font-semibold flex items-center gap-1">
+              <span class="w-2 h-2 rounded-full bg-rose-500"></span> SDG 3: Kehidupan Sehat & Sejahtera
+            </div>
+            <div class="p-2 bg-amber-50 text-amber-800 rounded border border-amber-100 font-semibold flex items-center gap-1">
+              <span class="w-2 h-2 rounded-full bg-amber-500"></span> SDG 4: Pendidikan Berkualitas
+            </div>
+            <div class="p-2 bg-orange-50 text-orange-800 rounded border border-orange-100 font-semibold flex items-center gap-1">
+              <span class="w-2 h-2 rounded-full bg-orange-500"></span> SDG 8: Pekerjaan & Ekonomi Layak
+            </div>
+            <div class="p-2 bg-indigo-50 text-indigo-800 rounded border border-indigo-100 font-semibold flex items-center gap-1">
+              <span class="w-2 h-2 rounded-full bg-indigo-500"></span> SDG 9: Industri & Inovasi
+            </div>
+            <div class="p-2 bg-yellow-50 text-yellow-800 rounded border border-yellow-100 font-semibold flex items-center gap-1">
+              <span class="w-2 h-2 rounded-full bg-yellow-500"></span> SDG 11: Kota & Pemukiman Layak
+            </div>
+            <div class="p-2 bg-amber-100 text-amber-900 rounded border border-amber-200 font-semibold flex items-center gap-1">
+              <span class="w-2 h-2 rounded-full bg-amber-600"></span> SDG 12: Konsumsi Bertanggungjawab
+            </div>
+            <div class="p-2 bg-emerald-50 text-emerald-800 rounded border border-emerald-100 font-semibold flex items-center gap-1">
+              <span class="w-2 h-2 rounded-full bg-emerald-500"></span> SDG 13: Penanganan Perubahan Iklim
+            </div>
+            <div class="p-2 bg-blue-50 text-blue-800 rounded border border-blue-100 font-semibold flex items-center gap-1">
+              <span class="w-2 h-2 rounded-full bg-blue-500"></span> SDG 14: Ekosistem Laut
+            </div>
+            <div class="p-2 bg-green-50 text-green-800 rounded border border-green-100 font-semibold flex items-center gap-1">
+              <span class="w-2 h-2 rounded-full bg-green-500"></span> SDG 15: Ekosistem Darat
+            </div>
+            <div class="p-2 bg-teal-50 text-teal-800 rounded border border-teal-100 font-semibold flex items-center gap-1">
+              <span class="w-2 h-2 rounded-full bg-teal-500"></span> SDG 17: Kemitraan Global
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Deliverables / Outputs -->
+        <div class="mt-6 pt-6 border-t border-slate-100">
+          <h5 class="text-sm font-bold text-slate-900 mb-3 flex items-center gap-1.5">
+            <i data-lucide="folder-git" class="w-4 h-4 text-emerald-700"></i> Luaran Hasil Karya (Portofolio):
+          </h5>
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-2">
+            <div class="p-2 bg-emerald-50 text-emerald-950 text-xs rounded text-center font-medium border border-emerald-100">
+              Laporan Investigasi Ilmiah
+            </div>
+            <div class="p-2 bg-emerald-50 text-emerald-950 text-xs rounded text-center font-medium border border-emerald-100">
+              Infografik Digital Kreatif
+            </div>
+            <div class="p-2 bg-emerald-50 text-emerald-950 text-xs rounded text-center font-medium border border-emerald-100">
+              Produk Seni Berbahan Alam/Limbah
+            </div>
+            <div class="p-2 bg-emerald-50 text-emerald-950 text-xs rounded text-center font-medium border border-emerald-100">
+              Presentasi Bilingual (ID/EN)
+            </div>
+            <div class="p-2 bg-emerald-50 text-emerald-950 text-xs rounded text-center font-medium border border-emerald-100">
+              Kampanye Perubahan Iklim
+            </div>
+            <div class="p-2 bg-emerald-50 text-emerald-950 text-xs rounded text-center font-medium border border-emerald-100">
+              Portofolio Refleksi Akhir
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom Box: Clean organized list of Learning Goals (Daftar Tujuan Pembelajaran) -->
+    <section class="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-sm">
+      <div class="border-b border-slate-100 pb-4 mb-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+        <div>
+          <h3 class="text-2xl font-bold text-slate-900 flex items-center gap-2">
+            <i data-lucide="book-open" class="w-6 h-6 text-blue-900"></i> Daftar Tujuan Pembelajaran
+          </h3>
+          <p class="text-slate-500 text-sm mt-0.5">Pemetaan indikator capaian belajar per mata pelajaran yang saling terintegrasi</p>
+        </div>
+        <div class="flex gap-2 no-print">
+          <input type="text" id="searchSubject" placeholder="Cari mata pelajaran..." oninput="filterSubjects()" class="px-4 py-2 text-sm border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900">
+        </div>
+      </div>
+
+      <!-- Subject cards grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="subjectGrid">
+        
+        <!-- IPA -->
+        <div class="subject-card bg-slate-50 border-t-4 border-blue-900 rounded-xl p-4 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-center mb-3">
+              <h4 class="font-extrabold text-blue-900 text-sm uppercase tracking-wider">Ilmu Pengetahuan Alam (IPA)</h4>
+              <span class="px-2 py-0.5 bg-blue-100 text-blue-900 text-[10px] font-bold rounded">Sains</span>
+            </div>
+            <ul class="space-y-2.5 text-xs text-slate-600 list-disc pl-4">
+              <li>Menganalisis perubahan fisika dan kimia (Physical Knowledge)</li>
+              <li>Mengidentifikasi suhu, kalor dan pemuaiannya (Physical Knowledge)</li>
+              <li>Menganalisis pengaruh kalor dan perpindahannya terhadap perubahan suhu (Physical Knowledge)</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- IPS -->
+        <div class="subject-card bg-slate-50 border-t-4 border-emerald-800 rounded-xl p-4 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-center mb-3">
+              <h4 class="font-extrabold text-emerald-800 text-sm uppercase tracking-wider">Ilmu Pengetahuan Sosial (IPS)</h4>
+              <span class="px-2 py-0.5 bg-emerald-100 text-emerald-800 text-[10px] font-bold rounded">Sosial</span>
+            </div>
+            <ul class="space-y-2.5 text-xs text-slate-600 list-disc pl-4">
+              <li>Menganalisis faktor aktivitas manusia terhadap perubahan iklim dan potensi bencana alam (Perception)</li>
+              <li>Menyelesaikan permasalahan dari faktor aktivitas manusia terhadap perubahan iklim dan potensi bencana alam (Critical thinking)</li>
+              <li>Menganalisis perubahan iklim terhadap kehidupan ekonomi, sosial, budaya masyarakat</li>
+              <li>Merefleksikan pola adaptasi terhadap perubahan iklim dan upaya mitigasi bencana untuk menunjang sustainable development goals (SDGs) dalam konteks lokal, regional, dan global</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- MATEMATIKA -->
+        <div class="subject-card bg-slate-50 border-t-4 border-amber-500 rounded-xl p-4 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-center mb-3">
+              <h4 class="font-extrabold text-amber-600 text-sm uppercase tracking-wider">Matematika</h4>
+              <span class="px-2 py-0.5 bg-amber-100 text-amber-800 text-[10px] font-bold rounded">Numerasi</span>
+            </div>
+            <ul class="space-y-2.5 text-xs text-slate-600 list-disc pl-4">
+              <li>Menghubungkan faktorisasi prima dari dua bilangan dengan KPK dan FPB</li>
+              <li>Menyelesaikan permasalahan terkait KPK dan FPB dalam kehidupan sehari-hari</li>
+              <li>Menganalisis suatu situasi ke dalam bentuk aljabar</li>
+              <li>Memecahkan masalah menggunakan operasi dan sifat-sifat aljabar</li>
+              <li>Menggunakaan syarat kesebangunan untuk menyelesaikan masalah</li>
+              <li>Menginvestigasi data dengan merumuskan pertanyaan, mengumpulkan data, mengolah dan menginterpretasikannya untuk menjawab pertanyaan</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- PENDIDIKAN PANCASILA -->
+        <div class="subject-card bg-slate-50 border-t-4 border-red-600 rounded-xl p-4 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-center mb-3">
+              <h4 class="font-extrabold text-red-600 text-sm uppercase tracking-wider">Pendidikan Pancasila</h4>
+              <span class="px-2 py-0.5 bg-red-100 text-red-800 text-[10px] font-bold rounded">Kewargaan</span>
+            </div>
+            <ul class="space-y-2.5 text-xs text-slate-600 list-disc pl-4">
+              <li>Merefleksikan diri terhadap penetapan Pancasila sebagai dasar negara pandangan hidup bangsa dan ideologi negara (Self esteem)</li>
+              <li>Menganalisis pentingnya pelestarian tradisi dan kearifan lokal dan budaya untuk mengembangkan identitas pribadi, sosial dan bangsa (Insight)</li>
+              <li>Merefleksikan keberagaman dan perubahan budaya dalam kehidupan bermasyarakat tingkat lokal (Self esteem)</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- PAI & BP -->
+        <div class="subject-card bg-slate-50 border-t-4 border-teal-700 rounded-xl p-4 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-center mb-3">
+              <h4 class="font-extrabold text-teal-700 text-sm uppercase tracking-wider">PAI & BP</h4>
+              <span class="px-2 py-0.5 bg-teal-100 text-teal-800 text-[10px] font-bold rounded">Agama</span>
+            </div>
+            <ul class="space-y-2.5 text-xs text-slate-600 list-disc pl-4">
+              <li>Merefleksikan diri dalam sifat ikhlas kepada Allah dalam kehidupan (Self esteem)</li>
+              <li>Merefleksikan diri dalam sifat syukur kepada Allah (Self esteem)</li>
+              <li>Merefleksikan makna cinta Rasul Allah (Self esteem)</li>
+              <li>Merefleksikan pemahaman tentang peradaban Bani Umayyah terhadap kondisi saat ini dan diri sendiri (Self konsep)</li>
+              <li>Merefleksikan pemahaman tentang peradaban Bani Abbasiyah terhadap kondisi saat ini dan diri sendiri (Self konsep)</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- BAHASA INGGRIS -->
+        <div class="subject-card bg-slate-50 border-t-4 border-indigo-600 rounded-xl p-4 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-center mb-3">
+              <h4 class="font-extrabold text-indigo-600 text-sm uppercase tracking-wider">Bahasa Inggris</h4>
+              <span class="px-2 py-0.5 bg-indigo-100 text-indigo-800 text-[10px] font-bold rounded">Bahasa</span>
+            </div>
+            <ul class="space-y-2.5 text-xs text-slate-600 list-disc pl-4">
+              <li>Write descriptive texts about study habits using adverbs of frequency: always, usually, normally/generally, often/frequently, sometimes, occasionally, seldom, hardly ever/rarely, never</li>
+              <li>Write an infographic about the learning tips</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- BAHASA ARAB -->
+        <div class="subject-card bg-slate-50 border-t-4 border-sky-600 rounded-xl p-4 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-center mb-3">
+              <h4 class="font-extrabold text-sky-600 text-sm uppercase tracking-wider">Bahasa Arab</h4>
+              <span class="px-2 py-0.5 bg-sky-100 text-sky-800 text-[10px] font-bold rounded">Bahasa</span>
+            </div>
+            <ul class="space-y-2.5 text-xs text-slate-600 list-disc pl-4">
+              <li>Mengenali bunyi huruf hijaiyah, harakat, dan kosakata bahasa Arab dengan pelafalan yang benar.</li>
+              <li>Membaca huruf hijaiyah, kata, dan frasa dengan makhraj dan harakat yang benar.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- BAHASA SUNDA -->
+        <div class="subject-card bg-slate-50 border-t-4 border-orange-500 rounded-xl p-4 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-center mb-3">
+              <h4 class="font-extrabold text-orange-600 text-sm uppercase tracking-wider">Bahasa Sunda</h4>
+              <span class="px-2 py-0.5 bg-orange-100 text-orange-800 text-[10px] font-bold rounded">Lokal</span>
+            </div>
+            <ul class="space-y-2.5 text-xs text-slate-600 list-disc pl-4">
+              <li>Menginterpretasi isi teks dongeng sasakala atau sage yang dibaca serta menganalisis unsur intrinsik dan nilai budaya di dalamnya.</li>
+              <li>Mempresentasikan teks sajak Sunda dengan percaya diri.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- BAHASA INDONESIA -->
+        <div class="subject-card bg-slate-50 border-t-4 border-cyan-600 rounded-xl p-4 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-center mb-3">
+              <h4 class="font-extrabold text-cyan-700 text-sm uppercase tracking-wider">Bahasa Indonesia</h4>
+              <span class="px-2 py-0.5 bg-cyan-100 text-cyan-800 text-[10px] font-bold rounded">Bahasa</span>
+            </div>
+            <ul class="space-y-2.5 text-xs text-slate-600 list-disc pl-4">
+              <li>Membuat kesimpulan dari teks deskripsi berupa gagasan, pikiran, perasaan, pandangan, arahan atau pesan yang tepat dari berbagai tipe teks audio visual dan aural dalam bentuk monolog, dialog, dan gelar wicara (Insight)</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- KODING, KA & INFORMATIKA -->
+        <div class="subject-card bg-slate-50 border-t-4 border-violet-700 rounded-xl p-4 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-center mb-3">
+              <h4 class="font-extrabold text-violet-700 text-sm uppercase tracking-wider">Koding & Berpikir Komputasional</h4>
+              <span class="px-2 py-0.5 bg-violet-100 text-violet-800 text-[10px] font-bold rounded">Teknologi</span>
+            </div>
+            <ul class="space-y-2.5 text-xs text-slate-600 list-disc pl-4">
+              <li>Mengidentifikasi data yang diperlukan untuk menyelesaikan permasalahan sederhana di lingkungan sekitar.</li>
+              <li>Menerapkan prinsip berpikir komputasional (dekomposisi, pengenalan pola, abstraksi, dan algoritma) untuk menyelesaikan permasalahan sederhana.</li>
+              <li>Menyusun prompt sederhana yang jelas dan efektif untuk memperoleh keluaran AI yang sesuai.</li>
+              <li>Menerapkan konsep lembar kerja pengolah data (Aplikasi) - Logical Mathematic Knowledge</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- PRAKARYA -->
+        <div class="subject-card bg-slate-50 border-t-4 border-pink-600 rounded-xl p-4 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-center mb-3">
+              <h4 class="font-extrabold text-pink-600 text-sm uppercase tracking-wider">PRAKARYA</h4>
+              <span class="px-2 py-0.5 bg-pink-100 text-pink-800 text-[10px] font-bold rounded">Kreatif</span>
+            </div>
+            <ul class="space-y-2.5 text-xs text-slate-600 list-disc pl-4">
+              <li>Mendesain produk kerajinan bahan alam lunak yang bernilai ekonomis dan ergonomis melalui modifikasi bahan, alat, teknik, dan prosedur pembuatan, serta merencanakan display/kemasan produk dengan mempertimbangkan potensi lingkungan/kearifan lokal.</li>
+              <li>Mendesain produk kerajinan bahan alam semikeras yang bernilai ekonomis dan ergonomis melalui modifikasi bahan, alat, teknik, dan prosedur pembuatan, serta merencanakan display/kemasan produk dengan mempertimbangkan potensi lingkungan/kearifan lokal.</li>
+              <li>Mendesain produk kerajinan limbah organik yang bernilai ekonomis dan ergonomis melalui modifikasi bahan, alat, teknik, dan prosedur pembuatan, serta merencanakan display/kemasan produk dengan mempertimbangkan potensi lingkungan/kearifan lokal.</li>
+              <li>Mendesain produk kerajinan tekstil yang bernilai ekonomis dan ergonomis melalui modifikasi bahan, alat, teknik, dan prosedur pembuatan, serta merencanakan display/kemasan produk dengan mempertimbangkan potensi lingkungan/kearifan lokal.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- PJOK -->
+        <div class="subject-card bg-slate-50 border-t-4 border-lime-600 rounded-xl p-4 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-center mb-3">
+              <h4 class="font-extrabold text-lime-700 text-sm uppercase tracking-wider">PJOK</h4>
+              <span class="px-2 py-0.5 bg-lime-100 text-lime-800 text-[10px] font-bold rounded">Kesehatan</span>
+            </div>
+            <ul class="space-y-2.5 text-xs text-slate-600 list-disc pl-4">
+              <li>Berpartisipasi dalam aktivitas jasmani di luar ruang dan menggambarkan sumber daya yang dibutuhkan untuk meningkatkan partisipasi.</li>
+              <li>Merancang pilihan makanan sehat berdasarkan analisis kandungan gizi sesuai kebutuhan aktivitas jasmani.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-slate-900 text-slate-400 py-8 mt-12 border-t border-slate-800 text-center text-sm no-print">
+    <p>© 2026 SMP ABATA ISLAMIC SCHOOL - 7th Grade Project "Green Muslim Innovators". Semua hak cipta dilindungi.</p>
+    <p class="text-xs text-slate-600 mt-1">Dibuat sebagai jembatan kemitraan berkelanjutan antara Sekolah dan orang tua murid.</p>
+  </footer>
+
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // Live search/filter function for subjects
+    function filterSubjects() {
+      const searchInput = document.getElementById('searchSubject').value.toLowerCase();
+      const cards = document.querySelectorAll('.subject-card');
+      
+      cards.forEach(card => {
+        const title = card.querySelector('h4').textContent.toLowerCase();
+        const items = card.querySelectorAll('li');
+        let matchesText = false;
+        
+        items.forEach(item => {
+          if (item.textContent.toLowerCase().includes(searchInput)) {
+            matchesText = true;
+          }
+        });
+
+        if (title.includes(searchInput) || matchesText) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</body>
+</html>
